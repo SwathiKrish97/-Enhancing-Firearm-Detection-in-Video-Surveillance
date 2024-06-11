@@ -12,6 +12,7 @@ The increase in concealed firearm incidents underscores the need for improved se
   
 Dataset Collection: Analyzed 398 videos featuring individuals with and without firearms.
 Categories include Handgun, Machine Gun, and No Gun.
+
 Dataset source: Mendeley Data.
 
 * Data Pre-processing
@@ -31,11 +32,13 @@ Tailored to detect Machine Gun, Handgun, and No Gun.
 * Results and Analysis
   
 Faster R-CNN: Achieved an mAP@0.5 of 99.5% and mAP@0.5:0.95 of 76.7% with GAN-augmented data.
+
 YOLOv5: Achieved an mAP@0.5 of 0.983 and mAP@0.5:0.95 of 0.648 with GAN-augmented data.
 
 * Comparison:
   
 Faster R-CNN: High accuracy but slower inference time.
+
 YOLOv5: Faster inference but slightly lower accuracy.
 
 * Conclusion
