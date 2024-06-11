@@ -10,35 +10,28 @@ The increase in concealed firearm incidents underscores the need for improved se
 
 * Methodology
   
-Dataset Collection:
-Analyzed 398 videos featuring individuals with and without firearms.
+Dataset Collection: Analyzed 398 videos featuring individuals with and without firearms.
 Categories include Handgun, Machine Gun, and No Gun.
 Dataset source: Mendeley Data.
 
-* Data Pre-processing:
+* Data Pre-processing
   
 Extracted frames at 25 FPS and 640x480 resolution.
 Converted annotations for YOLOv5 and Faster R-CNN.
 Applied SRGAN for image enhancement.
 
-* Modeling:
+* Modeling
   
-Faster R-CNN with ResNet-50:
-Includes a Region Proposal Network (RPN) and a Fast R-CNN detector.
+Faster R-CNN with ResNet-50: Includes a Region Proposal Network (RPN) and a Fast R-CNN detector.
 Modified to detect Machine Gun and Handgun.
 
-* YOLOv5:
-  
-Architecture includes Backbone, Neck, and Head for fast and accurate object detection.
+YOLOv5: Architecture includes Backbone, Neck, and Head for fast and accurate object detection.
 Tailored to detect Machine Gun, Handgun, and No Gun.
 
 * Results and Analysis
   
-Faster R-CNN:
-Achieved an mAP@0.5 of 99.5% and mAP@0.5:0.95 of 76.7% with GAN-augmented data.
-
-YOLOv5:
-Achieved an mAP@0.5 of 0.983 and mAP@0.5:0.95 of 0.648 with GAN-augmented data.
+Faster R-CNN: Achieved an mAP@0.5 of 99.5% and mAP@0.5:0.95 of 76.7% with GAN-augmented data.
+YOLOv5: Achieved an mAP@0.5 of 0.983 and mAP@0.5:0.95 of 0.648 with GAN-augmented data.
 
 * Comparison:
   
